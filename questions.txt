@@ -1,0 +1,15 @@
+0.  Pneumonoultramicroscopicsilicovolcanoconiosis is a lung disease that is otherwise known as silicosis
+1.  getrusage returns the resource usage for a particular thread or threads
+2.  16 members
+3.  Pass by reference because it is called in a function and so we can save the return value outside of function call.
+4.  Main works by loading the dictionary into memory and speller check. Main will then check if the char is a letter and will
+    add that letter to the word. If word is more than 45 char's, the rest of the word will be read and main will move on/discard it.
+    If the word has a number or digit, it is also discarded. Else, the word is complete, a null character is added to the end,
+    the word count is incremented, the word will be checked for mispellings, and will be printed to the terminal if so.
+5.  Relying on fscanf alone is bad because it may try to write a word longer than the maximum length to our array.
+6.  We declared the variables because the values are not going to change.
+7.  Trie is used for the spell-checker. Each node in trie has a boolean value to tell if the node represents the end of a word
+    and an array of node pointers representing the letters of the alphabet and '
+8.  My load time is 0.10 seconds 
+9.  The trie structure appears to be the best option for improvement (it is already being used).
+10. I can look for more efficient ways to store info to improve the speed of it.
